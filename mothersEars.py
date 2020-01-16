@@ -17,7 +17,7 @@ def Dashboard():
     
 @app.route('/feeling')
 def Feeling():
-    return flask.render_template('fe.html')
+    return flask.render_template('feeling.html')
 
 @app.route('/community')
 def Community():
