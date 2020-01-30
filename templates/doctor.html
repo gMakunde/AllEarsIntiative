@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>All Ears Initiative</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold; background-color:#AD3C6F; color:white" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <a href="/">
+    <img style="max-width:100%; max-height:100%;" src="https://lh4.googleusercontent.com/kDyMxH_hUSeJwhNKvtpZYHDspNrAvd7TEwjEY4OBOUWvboeIreHMNu2rqiEJFky62g6ZKEPXEkJYtwwBellLW2-SKT0NJqGf6GC2Wlbh9UAJCosyqajHyU2h4sLRwmGkrJBySW6u"/>
+    </a>
+  </div>
+  <div class="w3-bar-block">
+    <a href="/dash" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">MotherBoard home</a> 
+    <a href=#feeling onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">How are you feeling?</a> 
+    <a href="#doctor" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Things to ask your doctor</a> 
+    <a href="#tip" onclick="    w3_close()" class="w3-bar-item w3-button w3-hover-white">Tip of the Day</a> 
+    <a href="/community" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">MotherBoard Social Network</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact us</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-xlarge w3-padding" style = "background-color: #AD3C6F" >
+  <a href="javascript:void(0)" class="w3-button  w3-margin-right" onclick="w3_open()" style = "color: #ffffff">☰</a>
+  <span style = "color: #ffffff">All Ears Initiative</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge" style="color:#AD3C6F" id="doctor"><b>Things to ask your doctor. </b></h1>
+    <hr style="width:50px;border:5px solid #AD3C6F" class="w3-round">
+    <p>A suggested way to talk to your doctor about these findings.</p>
+    <p>"I was reading online about my symptoms and I came across these possible complications. What tests can be performed in order for me to better understand what is going on. Also, what are some preventative measures that I take in order to decrese my chances of getting complication or making it worse." If your doctor refuses to give you the tests, ask them to record it in their records. In the case something happens the doctor can be held accountable for neglegence.
+    </p><p>Based on our system, your symptoms suggest that you are at risk for: Preclampsia. </p><p>Remeber this is not a diagnosis, so please make sure to talk to a doctor before taking any further steps.</p>
+    <img style="max-width: 30%; max-height: 35%" src="https://lh5.googleusercontent.com/FF7FfnEBctuP-ApNsR9ETSkIOJmjGfCt-ga_yuJOgECffKvz2jFtlUPVI8cti7Nr0BF8e3bXqMMMWUtgq7Z5mMalyAObvfsRjYM5nXk0Dl0X4kLDiMSbFqPr_joUHfHUTfFP3HeT"/>
+    <p><b>No need to be alarmed! Here's more information about <a href="https://www.mayoclinic.org/diseases-conditions/preeclampsia/diagnosis-treatment/drc-20355751" style="color:#AD3C6F">Preclampsia</a> </p>
+    <img style="max-width: 40%; max-width: 40%" src="https://lh6.googleusercontent.com/ASB5BzWSoV3owkgzKXUeKYaYqsKerlgrqq_Ytis9sgNvCFzzUPtLRWbj5ER6zs3Cgkraj7Q4PAMNKUShcauQ6Z7jV4HhOEuGxDhcj_BqeXyUJOlj1eokxTM6zpeuK7huEYfTWVKG" />
+    <h3 class="w3-xxlarge" style="color:#AD3C6F"> Common Treatments:</h3>  <li><a href="https://www.rxlist.com/consumer_magnesium_sulfate_mgso4/drugs-condition.htm" style="color:#AD3C6F">Magnesium sulfate</a> </li>
+  <li><a href="https://www.healthline.com/health/corticosteroids-what-are-they" style="color:#AD3C6F">Corticosteroids</a></li>
+  <li><a href="https://www.healthline.com/health/diuretics" style="color:#AD3C6F">Diuretics</a></li><p> For more personal advice join our community of mothers and listen to their stories! Also dont be afraid to share any expiernces you may have.</b></p>
+    <a class="w3-button w3-padding-large w3-large" style="background-color:#AD3C6F; color: white; position: absolute;" href="/community">Join our Community!</a>
+  </div>
+
+
+  
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="Ask Doctor" target="_blank" class="w3-hover-opacity">All Ears Initiative</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
